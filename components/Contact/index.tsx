@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       id="team"
-      className="bg-secondary min-h-60 sm:min-h-96 xl:min-h-[50vh] w-full px-5 py-10 border-t-4"
+      className="bg-secondary min-h-60 w-full px-5 py-10 border-t-4"
     >
       <div className="max-w-screen-md xxl:max-w-screen-xl xxxl:max-w-screen-xxl mx-auto">
         <h2 className="text-primary text-center text-xl font-bold uppercase mb-8 tracking-widest">
