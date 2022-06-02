@@ -1,6 +1,10 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import About from "../components/About";
+import Games from "../components/Games";
 import Hero from "../components/Hero";
+import History from "../components/History";
+import Team from "../components/Team";
 
 const Home: NextPage = () => {
   return (
@@ -26,8 +30,11 @@ const Home: NextPage = () => {
       </Head>
 
       <Hero />
-      {/*<About />
-      <Workshops />
+      <About />
+      <Team />
+      <History />
+      <Games />
+      {/*<Workshops />
       <Astrolabe />
       <Team />
       <Contact /> */}
