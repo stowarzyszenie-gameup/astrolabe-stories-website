@@ -4,6 +4,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebookSquare,
   faLinkedin,
+  faSteamSquare,
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 import React, { useState } from "react";
@@ -73,11 +74,26 @@ const Navbar = () => {
             </li>
           ))}
           <li className="flex gap-4">
-            <a href="https://www.facebook.com/stowarzyszeniegameup">
-              <FontAwesomeIcon icon={faFacebookSquare} size="2x" />
+            <a href="https://www.facebook.com/astrolabestories">
+              <FontAwesomeIcon
+                icon={faFacebookSquare}
+                size="2x"
+                className="text-white"
+              />
             </a>
-            <a href="https://www.linkedin.com/company/stowarzyszenie-game-up/">
-              <FontAwesomeIcon icon={faLinkedin} size="2x" />
+            <a href="https://www.linkedin.com/company/astrolabe-stories/">
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                size="2x"
+                className="text-white"
+              />
+            </a>
+            <a href="https://store.steampowered.com/search/?developer=Astrolabe%20Stories">
+              <FontAwesomeIcon
+                icon={faSteamSquare}
+                size="2x"
+                className="text-white"
+              />
             </a>
           </li>
         </ul>
@@ -99,11 +115,26 @@ const Navbar = () => {
             </li>
           ))}
           <li className="flex gap-8">
-            <a href="https://www.facebook.com/stowarzyszeniegameup">
-              <FontAwesomeIcon icon={faFacebookSquare} size="2x" />
+            <a href="https://www.facebook.com/astrolabestories">
+              <FontAwesomeIcon
+                icon={faFacebookSquare}
+                size="2x"
+                className="text-white"
+              />
             </a>
-            <a href="https://www.linkedin.com/company/stowarzyszenie-game-up/">
-              <FontAwesomeIcon icon={faLinkedin} size="2x" />
+            <a href="https://www.linkedin.com/company/astrolabe-stories/">
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                size="2x"
+                className="text-white"
+              />
+            </a>
+            <a href="https://store.steampowered.com/search/?developer=Astrolabe%20Stories">
+              <FontAwesomeIcon
+                icon={faSteamSquare}
+                size="2x"
+                className="text-white"
+              />
             </a>
           </li>
         </ul>
