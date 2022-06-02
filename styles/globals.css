@@ -18,3 +18,21 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@keyframes move-twinks {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+
+@keyframes move-clouds {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 10000px 0;
+  }
+}
