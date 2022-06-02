@@ -6,8 +6,10 @@ const Team = () => {
       id="team"
       className="min-h-60 sm:min-h-96 xl:min-h-[50vh] w-full px-5 py-10 max-w-screen-md xxl:max-w-screen-xl xxxl:max-w-screen-xxl mx-auto"
     >
+      <h2 className="text-primary text-center text-xl font-bold uppercase mb-8">
+        TEAM
+      </h2>
       <div className="flex flex-col gap-4 items-center justify-around">
-        <h1 className="text-primary">Astrolabe Stories</h1>
         <p className=" text-white">
           Adam Flamma - Father of chaos(and games)
           <br />

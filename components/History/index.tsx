@@ -6,8 +6,10 @@ const History = () => {
       id="history"
       className="min-h-60 sm:min-h-96 xl:min-h-[50vh] w-full px-5 py-10 max-w-screen-md xxl:max-w-screen-xl xxxl:max-w-screen-xxl mx-auto"
     >
+      <h2 className="text-primary text-center text-xl font-bold uppercase mb-8">
+        OUR HISTORY
+      </h2>
       <div className="flex flex-col gap-4 items-center justify-around">
-        <h1 className="text-primary">History</h1>
         <p className=" text-white">
           01. 2021 - We started thinking about making our debut game.
           <br />

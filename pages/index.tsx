@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import About from "../components/About";
+import Contact from "../components/Contact";
 import Games from "../components/Games";
 import Hero from "../components/Hero";
 import History from "../components/History";
@@ -107,10 +108,7 @@ const Home: NextPage = () => {
       <Team />
       <History />
       <Games />
-      {/*<Workshops />
-      <Astrolabe />
-      <Team />
-      <Contact /> */}
+      <Contact />
     </div>
   );
 };
