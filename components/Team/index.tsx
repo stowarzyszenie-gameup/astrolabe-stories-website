@@ -4,7 +4,7 @@ const Team = () => {
   return (
     <div
       id="team"
-      className="min-h-60 sm:min-h-96 xl:min-h-[50vh] w-full px-5 py-20 max-w-screen-md xxl:max-w-screen-xl xxxl:max-w-screen-xxl mx-auto"
+      className="min-h-60 sm:min-h-96 xl:min-h-[50vh] w-full px-5 py-10 max-w-screen-md xxl:max-w-screen-xl xxxl:max-w-screen-xxl mx-auto"
     >
       <div className="flex flex-col gap-4 items-center justify-around">
         <h1 className="text-primary">Astrolabe Stories</h1>

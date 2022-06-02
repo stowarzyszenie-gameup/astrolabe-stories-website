@@ -7,6 +7,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 import React, { useState } from "react";
+import logo from "./ASLogo.png";
 
 const navbarLinks = [
   {
@@ -41,7 +42,7 @@ const Navbar = () => {
             <Link href="/">
               <a>
                 <img
-                  src="/gameup_logo.webp"
+                  src={logo.src}
                   alt="Astrolabe Stories logo"
                   className="w-36"
                 />

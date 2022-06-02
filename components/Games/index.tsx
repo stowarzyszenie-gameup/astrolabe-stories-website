@@ -7,7 +7,7 @@ const Games = () => {
   return (
     <div
       id="games"
-      className="min-h-60 sm:min-h-96 xl:min-h-[50vh] w-full px-5 py-20 max-w-screen-md 2xl:max-w-screen-xl 3xl:max-w-screen-2xl mx-auto"
+      className="min-h-60 sm:min-h-96 xl:min-h-[50vh] w-full px-5 py-10 max-w-screen-md 2xl:max-w-screen-xl 3xl:max-w-screen-2xl mx-auto"
     >
       <h2 className="text-primary text-center text-xl font-bold uppercase mb-8">
         GAMES

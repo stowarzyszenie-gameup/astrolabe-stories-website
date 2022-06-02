@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="min-h-60 sm:min-h-96 xl:min-h-[50vh] w-full px-5 py-20 max-w-screen-md xxl:max-w-screen-xl xxxl:max-w-screen-xxl mx-auto "
+      className="min-h-60 sm:min-h-96 xl:min-h-[50vh] w-full px-5 py-10 max-w-screen-md 2xl:max-w-screen-xl 3xl:max-w-screen-2xl mx-auto "
     >
       <h2 className="text-primary text-center text-xl font-bold uppercase mb-8">
         ABOUT US
@@ -15,7 +15,7 @@ const About = () => {
         <div className="flex justify-center items-center">
           <img src={card.src} alt="" />
         </div>
-        <div className="flex flex-col gap-4 items-center justify-around lg:col-start-2 lg:col-end-4 text-sm">
+        <div className="flex flex-col gap-4 items-center justify-center lg:col-start-2 lg:col-end-4 text-sm">
           <p className=" text-white ">
             Astrolabe Stories is a gaming project of Games’ Development and
             Research Association GameUP. The main aim of Astrolabe Stories is to
