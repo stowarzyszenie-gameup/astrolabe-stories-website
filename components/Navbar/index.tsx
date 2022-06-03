@@ -36,7 +36,7 @@ const navbarLinks = [
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <nav className="bg-black lg:bg-transparent flex px-12 py-6 lg:px-4 justify-center items-center fixed top-0 w-full lg:w-52 lg:h-full">
+    <nav className="bg-black lg:bg-transparent flex px-12 py-6 lg:px-4 justify-center items-center fixed top-0 w-full lg:w-52 lg:h-full z-50">
       <div className="max-w-screen-xl w-full flex flex-col sm:flex-col gap-4 justify-between">
         <div className="flex flex-row justify-between">
           <div className="lg:hidden text-white">
