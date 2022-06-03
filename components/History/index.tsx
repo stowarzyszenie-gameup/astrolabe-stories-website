@@ -4,26 +4,63 @@ const History = () => {
   return (
     <div
       id="history"
-      className="min-h-60 sm:min-h-96 xl:min-h-[50vh] w-full px-5 py-10 max-w-screen-md xxl:max-w-screen-xl xxxl:max-w-screen-xxl mx-auto"
+      className="w-full px-5 py-10 max-w-screen-md xxl:max-w-screen-xl xxxl:max-w-screen-xxl mx-auto"
     >
       <h2 className="text-primary text-center text-xl font-bold uppercase mb-8">
         OUR HISTORY
       </h2>
-      <div className="flex flex-col gap-4 items-center justify-around">
-        <p className=" text-white">
-          01. 2021 - We started thinking about making our debut game.
-          <br />
-          02. 2021 - We made a team ready for all types of challenges :)
-          <br />
-          03. 2021 - Conceptual work on the game has started - the fun has just
-          begun!
-          <br />
-          06.2021- We started the real game development process. It&apos;s
-          starting to get serious;)
-          <br />
-          25.03. 2022 - The release of our first game “Last Threshold”!
-        </p>
-      </div>
+      <ol className="relative border-primary border-dashed border-l-4 text-white">
+        <li className="mb-10 ml-4">
+          <div className="absolute w-6 h-6 bg-primary rounded-full mt-1.5 -left-3.5 border border-primary"></div>
+          <time className="mb-1 ml-2.5 leading-none text-primary text-center text-l font-bold uppercase">
+            January 2021
+          </time>
+          <p className="mb-4 ml-2.5 text-sm font-normal ">
+            We started thinking about making our debut game.
+          </p>
+        </li>
+        <li className="mb-10 ml-4">
+          <div className="absolute w-6 h-6 bg-primary rounded-full mt-1.5 -left-3.5 border border-primary"></div>
+          <time className="mb-1 ml-2.5 leading-none text-primary text-center text-l font-bold uppercase">
+            February 2021
+          </time>
+
+          <p className="mb-4 ml-2.5 text-sm font-normal ">
+            We made a team ready for all types of challenges :)
+          </p>
+        </li>
+        <li className="mb-10 ml-4">
+          <div className="absolute w-6 h-6 bg-primary rounded-full mt-1.5 -left-3.5 border border-primary"></div>
+          <time className="mb-1 ml-2.5 leading-none text-primary text-center text-l font-bold uppercase">
+            March 2021
+          </time>
+
+          <p className="mb-4 ml-2.5 text-sm font-normal ">
+            Conceptual work on the game has started - the fun has just begun!
+          </p>
+        </li>
+        <li className="mb-10 ml-4">
+          <div className="absolute w-6 h-6 bg-primary rounded-full mt-1.5 -left-3.5 border border-primary"></div>
+          <time className="mb-1 ml-2.5 leading-none text-primary text-center text-l font-bold uppercase">
+            June 2021
+          </time>
+
+          <p className="mb-4 ml-2.5 text-sm font-normal ">
+            We started the real game development process. It&apos;s starting to
+            get serious;)
+          </p>
+        </li>
+        <li className="ml-4">
+          <div className="absolute w-6 h-6 bg-primary rounded-full mt-1.5 -left-3.5 border border-primary"></div>
+          <time className="mb-1 ml-2.5 leading-none text-primary text-center text-l font-bold uppercase">
+            March 25th, 2022
+          </time>
+
+          <p className="mb-4 ml-2.5 text-sm font-normal ">
+            The release of our first game “Last Threshold”!
+          </p>
+        </li>
+      </ol>
     </div>
   );
 };
