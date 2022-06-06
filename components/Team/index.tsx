@@ -18,10 +18,6 @@ const Team = () => {
               chaos (and games)
             </li>
             <li>
-              <span className="text-primary">Róża Hnatkowska</span> - Ninja (PR,
-              and much more!)
-            </li>
-            <li>
               <span className="text-primary">Nina Świłło</span> - Miracle maker
               (art, graphics, and managing)
             </li>
