@@ -15,7 +15,7 @@ const Team = () => {
           <ul className="list-disc">
             <li>
               <span className="text-primary">Adam Flamma</span> - Father of
-              chaos(and games)
+              chaos (and games)
             </li>
             <li>
               <span className="text-primary">Róża Hnatkowska</span> - Ninja (PR,

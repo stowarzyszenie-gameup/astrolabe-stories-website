@@ -47,7 +47,7 @@ const History = () => {
 
           <p className="mb-4 ml-2.5 text-sm font-normal ">
             We started the real game development process. It&apos;s starting to
-            get serious;)
+            get serious ;)
           </p>
         </li>
         <li className="ml-4">
