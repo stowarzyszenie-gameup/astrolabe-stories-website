@@ -14,7 +14,10 @@ const Home: NextPage = () => {
         <title>Astrolabe Stories</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
-        <meta name="description" content="Astrolabe Stories" />
+        <meta
+          name="description"
+          content="It's all about stories. Our past, future, and present. Now we want to tell our stories - meaningful and unique"
+        />
         <meta property="og:url" content="https://astrolabestories.com" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Astrolabe Stories" />
