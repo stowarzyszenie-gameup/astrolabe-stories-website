@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import steam from "./steam.webp";
-import poster from "./poster.jpg";
+import poster from "./poster.webp";
 
 const Games = () => {
   return (

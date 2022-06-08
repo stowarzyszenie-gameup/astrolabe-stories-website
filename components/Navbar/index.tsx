@@ -8,7 +8,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 import React, { useState } from "react";
-import logo from "./ASLogo.png";
+import logo from "./ASLogo.webp";
 
 const navbarLinks = [
   {
@@ -115,21 +115,30 @@ const Navbar = () => {
             </li>
           ))}
           <li className="flex gap-8">
-            <a href="https://www.facebook.com/astrolabestories">
+            <a
+              href="https://www.facebook.com/astrolabestories"
+              aria-label="Facebook Page link"
+            >
               <FontAwesomeIcon
                 icon={faFacebookSquare}
                 size="2x"
                 className="text-white"
               />
             </a>
-            <a href="https://www.linkedin.com/company/astrolabe-stories/">
+            <a
+              href="https://www.linkedin.com/company/astrolabe-stories/"
+              aria-label="LinkedIn Page link"
+            >
               <FontAwesomeIcon
                 icon={faLinkedin}
                 size="2x"
                 className="text-white"
               />
             </a>
-            <a href="https://store.steampowered.com/search/?developer=Astrolabe%20Stories">
+            <a
+              href="https://store.steampowered.com/search/?developer=Astrolabe%20Stories"
+              aria-label="Steam Page link"
+            >
               <FontAwesomeIcon
                 icon={faSteamSquare}
                 size="2x"

@@ -13,9 +13,9 @@ module.exports = {
         secondary: "rgb(16, 37, 66)",
       },
       backgroundImage: {
-        stars: "url('/img/stars.png'), linear-gradient(to right, #000, #000)",
-        twinkling: "url('/img/twinkling.png')",
-        clouds: "url('/img/clouds.png')",
+        stars: "url('/img/stars.webp'), linear-gradient(to right, #000, #000)",
+        twinkling: "url('/img/twinkling.webp')",
+        clouds: "url('/img/clouds.webp')",
         dots: "linear-gradient(90deg, rgba(247,246,197,1) 0%, rgba(163,126,76,1) 100%)",
       },
       animation: {

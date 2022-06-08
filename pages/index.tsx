@@ -30,6 +30,7 @@ const Home: NextPage = () => {
         <meta property="og:image:height" content="630" />
         <meta property="twitter:card" content="summary" />
         {/* <meta property="twitter:image" content={gameUpLogo.src} /> */}
+        <link rel="canonical" href="https://astrolabestories.com" />
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"
