@@ -2,6 +2,7 @@
 import React from "react";
 import steam from "./steam.webp";
 import poster from "./poster.webp";
+import nswitch from "./switch.webp";
 
 const Games = () => {
   return (
@@ -15,9 +16,18 @@ const Games = () => {
       <div className="flex flex-col-reverse lg:grid lg:grid-cols-3 gap-8">
         <div className="col-start-2 lg:col-start-1 lg:col-end-3 flex flex-col-reverse lg:flex-col items-center gap-4">
           <img src={poster.src} alt="" />
-          <a href="https://store.steampowered.com/app/1840770/Last_Threshold/">
-            <img src={steam.src} alt="Available on Steam" className="w-48" />
-          </a>
+          <div className="flex">
+            <a href="https://store.steampowered.com/app/1840770/Last_Threshold/">
+              <img src={steam.src} alt="Available on Steam" className="w-48" />
+            </a>
+            <a href="https://www.nintendo.com/store/products/last-threshold-switch/">
+              <img
+                src={nswitch.src}
+                alt="Available on Nintendo Switch"
+                className="w-48"
+              />
+            </a>
+          </div>
         </div>
 
         <div className="flex flex-col gap-4 items-start justify-center lg:col-start-3 lg:col-end-4">

@@ -5,6 +5,7 @@ import {
   faFacebookSquare,
   faLinkedin,
   faSteamSquare,
+  faYoutubeSquare,
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 import React, { useState } from "react";
@@ -73,7 +74,7 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
-          <li className="flex gap-4">
+          <li className="grid grid-cols-2 gap-8">
             <a href="https://www.facebook.com/astrolabestories">
               <FontAwesomeIcon
                 icon={faFacebookSquare}
@@ -91,6 +92,16 @@ const Navbar = () => {
             <a href="https://store.steampowered.com/search/?developer=Astrolabe%20Stories">
               <FontAwesomeIcon
                 icon={faSteamSquare}
+                size="2x"
+                className="text-white"
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCW8tRgqGWNIzyckF1ZkJepg"
+              aria-label="YouTube link"
+            >
+              <FontAwesomeIcon
+                icon={faYoutubeSquare}
                 size="2x"
                 className="text-white"
               />
@@ -114,7 +125,7 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
-          <li className="flex gap-8">
+          <li className="grid grid-cols-2 gap-x-8 gap-y-4">
             <a
               href="https://www.facebook.com/astrolabestories"
               aria-label="Facebook Page link"
@@ -141,6 +152,16 @@ const Navbar = () => {
             >
               <FontAwesomeIcon
                 icon={faSteamSquare}
+                size="2x"
+                className="text-white"
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCW8tRgqGWNIzyckF1ZkJepg"
+              aria-label="YouTube link"
+            >
+              <FontAwesomeIcon
+                icon={faYoutubeSquare}
                 size="2x"
                 className="text-white"
               />

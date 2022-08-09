@@ -50,14 +50,35 @@ const History = () => {
             get serious ;)
           </p>
         </li>
-        <li className="ml-4">
+        <li className="mb-10 ml-4">
           <div className="absolute w-6 h-6 bg-primary rounded-full mt-1.5 -left-3.5 border border-primary"></div>
           <time className="mb-1 ml-2.5 leading-none text-primary text-center text-l font-bold uppercase">
             March 25th, 2022
           </time>
 
           <p className="mb-4 ml-2.5 text-sm font-normal ">
-            The release of our first game “Last Threshold”!
+            The release of our first game &quot;Last Threshold&quot;!
+          </p>
+        </li>
+        <li className="mb-10 ml-4">
+          <div className="absolute w-6 h-6 bg-primary rounded-full mt-1.5 -left-3.5 border border-primary"></div>
+          <time className="mb-1 ml-2.5 leading-none text-primary text-center text-l font-bold uppercase">
+            May 31st, 2022
+          </time>
+
+          <p className="mb-4 ml-2.5 text-sm font-normal ">
+            We begun co-operation with Feardemic sp. z.o.o. for publishing
+            &quot;Last Threshold&quot; on consoles
+          </p>
+        </li>
+        <li className="ml-4">
+          <div className="absolute w-6 h-6 bg-primary rounded-full mt-1.5 -left-3.5 border border-primary"></div>
+          <time className="mb-1 ml-2.5 leading-none text-primary text-center text-l font-bold uppercase">
+            August 11th, 2022
+          </time>
+
+          <p className="mb-4 ml-2.5 text-sm font-normal ">
+            &quot;Last Threshold&quot; release on Nintendo Switch console
           </p>
         </li>
       </ol>

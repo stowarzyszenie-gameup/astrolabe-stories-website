@@ -34,8 +34,7 @@ const Team = () => {
               Magic Maker (visual magic - bringing imagination to life)
             </li>
             <li>
-              <span className="text-primary">Kacper Łach</span> - Social media
-              guy (always connected with the whole world)
+              <span className="text-primary">Michał Hawełka</span> - IT guy
             </li>
           </ul>
           <ul className="list-disc">
