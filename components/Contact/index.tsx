@@ -18,7 +18,7 @@ const Contact = () => {
             action="/success"
             className="w-full rounded overflow-hidden shadow-lg bg-white my-2 px-6 py-4 flex flex-col items-stretch"
           >
-            <input type="hidden" name="form-name" value="contact-form" />
+            <input type="hidden" name="form-name" value="contact" />
             <p className="font-secondary">
               <label htmlFor="yourname" className="font-secondary">
                 Name:
