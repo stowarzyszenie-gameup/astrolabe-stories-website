@@ -71,7 +71,7 @@ const History = () => {
             &quot;Last Threshold&quot; on consoles
           </p>
         </li>
-        <li className="ml-4">
+        <li className="mb-10 ml-4">
           <div className="absolute w-6 h-6 bg-primary rounded-full mt-1.5 -left-3.5 border border-primary"></div>
           <time className="mb-1 ml-2.5 leading-none text-primary text-center text-l font-bold uppercase">
             August 11th, 2022
@@ -79,6 +79,26 @@ const History = () => {
 
           <p className="mb-4 ml-2.5 text-sm font-normal ">
             &quot;Last Threshold&quot; release on Nintendo Switch console
+          </p>
+        </li>
+        <li className="mb-10 ml-4">
+          <div className="absolute w-6 h-6 bg-primary rounded-full mt-1.5 -left-3.5 border border-primary"></div>
+          <time className="mb-1 ml-2.5 leading-none text-primary text-center text-l font-bold uppercase">
+            December 21st, 2022
+          </time>
+
+          <p className="mb-4 ml-2.5 text-sm font-normal ">
+            The release of our second game &quot;Ballads and romances&quot;!
+          </p>
+        </li>
+        <li className="ml-4">
+          <div className="absolute w-6 h-6 bg-primary rounded-full mt-1.5 -left-3.5 border border-primary"></div>
+          <time className="mb-1 ml-2.5 leading-none text-primary text-center text-l font-bold uppercase">
+            January 2nd, 2023
+          </time>
+
+          <p className="mb-4 ml-2.5 text-sm font-normal ">
+            &quot;Ballads and romances&quot; released on mobile devices
           </p>
         </li>
       </ol>

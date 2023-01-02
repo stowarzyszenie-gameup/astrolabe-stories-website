@@ -17,7 +17,7 @@ const About = () => {
         </div>
         <div className="flex flex-col gap-4 items-center justify-center lg:col-start-2 lg:col-end-4 text-sm">
           <p className=" text-white ">
-            Astrolabe Stories is a gaming project of Games’ Development and
+            Astrolabe Stories is a gaming project of the Games’ Development and
             Research Association GameUP. The main aim of Astrolabe Stories is to
             make meaningful games with unforgettable stories. We are a group of
             experienced storytellers and enthusiasts of story design. Just as
@@ -31,14 +31,29 @@ const About = () => {
             will leave a mark on players&apos; memories.
           </p>
           <p className=" text-white">
-            &quot;Last Threshold&quot; is our first game, heavily inspired by
-            the work of H.P. Lovecraft and his followers, which allows you to
-            learn about the extraordinary history of a mysterious temple in
-            Siberia. We decided on the visual novel genre because we wanted the
-            player to empathize with the hero struggling with the dark secrets
-            of the temple, difficult weather conditions, and his own past.
+            On the 25th of March 2022 we&apos;ve released &quot;Last
+            Threshold&quot;, our first game, heavily inspired by the work of
+            H.P. Lovecraft and his followers, which allows you to learn about
+            the extraordinary history of a mysterious temple in Siberia. We
+            decided on the visual novel genre because we wanted the player to
+            empathize with the hero struggling with the dark secrets of the
+            temple, difficult weather conditions, and his past.
           </p>
-
+          <p className=" text-white">
+            Soon after the release of our debut, we decided to expand the
+            Threshold universe. We have started to make webcomics
+            &quot;Chronicles of Aleleke&quot;, also you can read the prequel of
+            Last Threshold on our social media (&quot;Karol Staszewski&apos;s
+            diary&quot;). We are working on a standalone comic that will help us
+            to expand our universe.
+          </p>
+          <p className=" text-white">
+            On 21.12.2022 we published &quot;Ballads and Romances&quot;, a
+            visual novel game in collaboration with The Ministry of Culture and
+            National Heritage of Poland. This visual novel shows the origins of
+            &quot;Ballads and Romances&quot;, the literary debut of Adam
+            Mickiewicz, a great Polish poet in the Romanticism Epoque.
+          </p>
           <p className=" text-white">
             Now we are working on new projects, in which we want to focus on
             telling the stories of protagonists, whose fates will allow us to

@@ -34,6 +34,18 @@ const Team = () => {
               Magic Maker (visual magic - bringing imagination to life)
             </li>
             <li>
+              <span className="text-primary">Anna Bielecka</span> - Lady of
+              Concepts (concept artist)
+            </li>
+            <li>
+              <span className="text-primary">Jacek Godlewski</span> - Lord of
+              raports (QA Tester)
+            </li>
+            <li>
+              <span className="text-primary">Aleksandra „Alexia” Majerska</span>{" "}
+              - Lady of Posts (social media specialist)
+            </li>
+            <li>
               <span className="text-primary">Michał Hawełka</span> - IT guy
             </li>
           </ul>
@@ -47,20 +59,32 @@ const Team = () => {
               - Lady of Art (lead graphic designer)
             </li>
             <li>
-              <span className="text-primary">Sara Grzelak</span> - 2d miracle
-              maker (2d artist)
+              <span className="text-primary">Antoni Jastrzębski</span> - Lord of
+              characters (character artist)
             </li>
             <li>
-              <span className="text-primary">Antoni Jastrzębski</span> - 2d
-              miracle maker (2d artist)
+              <span className="text-primary">Sara Grzelak</span> - 2d miracle
+              maker (2d artist)
             </li>
             <li>
               <span className="text-primary">Bartosz Wardaszko</span> - 2d
               miracle maker (2d artist)
             </li>
             <li>
+              <span className="text-primary">Karolina Lewicka</span> - 2d
+              miracle maker (2d artist)
+            </li>
+            <li>
+              <span className="text-primary">Jan Pusiarski</span> - 2d miracle
+              maker (2d artist)
+            </li>
+            <li>
               <span className="text-primary">Wiktor Pawlik</span> - Master of
               Design (gameplay designer)
+            </li>
+            <li>
+              <span className="text-primary">Kamil Mazerant</span> - Lord of
+              Sounds (sound designer)
             </li>
             <li>
               <span className="text-primary">Ilias Abdeljalil</span> - Lord of
