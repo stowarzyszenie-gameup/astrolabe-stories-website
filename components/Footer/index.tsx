@@ -17,7 +17,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className="flex gap-4">
-        Astrolabe Stories 2022
+        Astrolabe Stories {new Date().getFullYear()}
         <div className="flex gap-4">
           <a
             href="https://www.facebook.com/astrolabestories"
