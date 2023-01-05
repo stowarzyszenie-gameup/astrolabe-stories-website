@@ -30,30 +30,26 @@ const Team = () => {
               finances (and copyright - love of his life)
             </li>
             <li>
-              <span className="text-primary">Fazal Khan</span> - Video and VFX
-              Magic Maker (visual magic - bringing imagination to life)
-            </li>
-            <li>
-              <span className="text-primary">Anna Bielecka</span> - Lady of
-              Concepts (concept artist)
-            </li>
-            <li>
-              <span className="text-primary">Jacek Godlewski</span> - Lord of
-              raports (QA Tester)
-            </li>
-            <li>
               <span className="text-primary">Aleksandra „Alexia” Majerska</span>{" "}
               - Lady of Posts (social media specialist)
             </li>
             <li>
               <span className="text-primary">Michał Hawełka</span> - IT guy
             </li>
-          </ul>
-          <ul className="list-disc">
+            <li>
+              <span className="text-primary">Fazal Khan</span> - Video and VFX
+              Magic Maker (visual magic - bringing imagination to life)
+            </li>
             <li>
               <span className="text-primary">Aleksandra Browarska</span> - Lady
               of Stories (writer)
             </li>
+            <li>
+              <span className="text-primary">Kamil Mazerant</span> - Lord of
+              Sounds (sound designer)
+            </li>
+          </ul>
+          <ul className="list-disc">
             <li>
               <span className="text-primary">Patrycja Skałecka-Wodziczko</span>{" "}
               - Lady of Art (lead graphic designer)
@@ -79,16 +75,24 @@ const Team = () => {
               maker (2d artist)
             </li>
             <li>
+              <span className="text-primary">Anna Bielecka</span> - Lady of
+              Concepts (concept artist)
+            </li>
+            <li>
               <span className="text-primary">Wiktor Pawlik</span> - Master of
               Design (gameplay designer)
             </li>
             <li>
-              <span className="text-primary">Kamil Mazerant</span> - Lord of
-              Sounds (sound designer)
+              <span className="text-primary">Damian Frycz</span> - Lord of
+              Puzzles (game designer)
             </li>
             <li>
               <span className="text-primary">Ilias Abdeljalil</span> - Lord of
               the code (programmer)
+            </li>
+            <li>
+              <span className="text-primary">Jacek Godlewski</span> - Lord of
+              raports (QA Tester)
             </li>
           </ul>
         </div>
