@@ -48,23 +48,23 @@ const Team = () => {
               <span className="text-primary">Kamil Mazerant</span> - Lord of
               Sounds (sound designer)
             </li>
-          </ul>
-          <ul className="list-disc">
             <li>
               <span className="text-primary">Patrycja Skałecka-Wodziczko</span>{" "}
               - Lady of Art (lead graphic designer)
             </li>
+          </ul>
+          <ul className="list-disc">
             <li>
               <span className="text-primary">Antoni Jastrzębski</span> - Lord of
-              characters (character artist)
+              characters (character & 2d artist)
             </li>
             <li>
               <span className="text-primary">Sara Grzelak</span> - 2d miracle
               maker (2d artist)
             </li>
             <li>
-              <span className="text-primary">Bartosz Wardaszko</span> - 2d
-              miracle maker (2d artist)
+              <span className="text-primary">Zuzanna Nowicka</span> - 2d miracle
+              maker (2d artist)
             </li>
             <li>
               <span className="text-primary">Karolina Lewicka</span> - 2d
@@ -80,7 +80,7 @@ const Team = () => {
             </li>
             <li>
               <span className="text-primary">Wiktor Pawlik</span> - Master of
-              Design (gameplay designer)
+              Design (gameplay designer & technical producer)
             </li>
             <li>
               <span className="text-primary">Damian Frycz</span> - Lord of
